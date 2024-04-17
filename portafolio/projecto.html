@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portafolio</title>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<header class="encabezado">
+    <div class="titulo">Juan alexander paulino</div>
+<nav class="navegacion">
+      <ul class="nav2">
+        <li class="lista"><a href="#sobre mi">sobre mi</a></li>
+        <li class="lista">
+          <a class="marcar" href="#skills">Skill</a>
+        </li>
+        <li>
+          <a class="lista" href="#hobbies">hobbies</a>
+        </li>
+
+        <li>
+          <a class="lista" href="#formacion">formacion</a>
+        </li>
+
+        <li>
+          <a class="lista"><a href="#proyectos">proyectos</a>
+        </li>
+        <li>
+          <a class="lista"><a href="#contacto">contacto</a>
+        </li>
+
+      </ul>
+
+    </nav>
+</header>
+<img class="logo" src="img/logo.webp">
+<section>
+  <div>
+    <h2>Hola mi nombre es juan alexander paulino y <br>construllo paginas web </h2>
+    <br>
+    <p class="TEXTO1"><br>estoy formado en el uso correcto de html, css, y parcialmente de js, soy un poco introvertido, 
+      apasioado algo vago y simpatico,<br> amo la informatica
+      y actualmente estoy participando en el proyecto de ORACLE ONE en alura LATAM</p>
+  </div>
+  <div class="container">
+        <button class="links"><a  href="https://www.linkedin.com/in/juan-alexander-paulino-marte-30b761275/">LINKEDIN</a></button>
+        <button class="links"><a  href="https://github.com/alexp08260">Github</a></button>
+        <button class="links"><a  href="https://docs.google.com/document/d/1CECAYYIUAiHLrzIV6lC3cRgVNOZggw2k/edit?usp=drive_link&ouid=107718538796956603060&rtpof=true&sd=true">curriculum</a></button>
+    
+  </div>
+</section>
+
+<hr style="border:30px","width:75%;"><hr style="border-color: black;">
+
+<div class="sobremi"  id="sobre mi">
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <h3>Sobre mi</h3>
+  
+  <div class="centrado">
+    <p class="sobremi2">hola me llamo juan alexander, soy un chico apasionado que le gusta los video juegos<br> 
+    me encanta la computacion especialmente mi hobby esta en el ensamblado de comptuadoras,<br>
+    soy poco atletico, optimista, y me gusta ayudar mucho a las personas,<br> me gusta mucho hablar
+    con mis amigos y socializar de vez en cuando.
+  </p></div>
+  
+  
+</div>
+<section>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <hr style="border:30px","width:75%;"><hr style="border-color: black;">
+  <br id="skills">
+  <h3>Skills</h3>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+ <div class="contenedor-imagenes">
+  <img class="size" src="img/HTML.webp" alt="HTML">
+  <img class="size" src="img/CSS.png" alt="CSS">
+  <img class="size" src="img/java.png" alt="JAVASCRIPT">
+ </div>
+</section>
+<p class="nombres"> html, css, javascript</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<section>
+</div>
+<hr style="border:30px","width:75%;"><hr style="border-color: black;" id="hobbies">
+
+<section>
+  <br>
+  <h3>hobbies</h3>
+  <br>
+  <br>
+  <br>
+  <br>
+ <div class="contenedor-imagenes">
+  <img class="size" src="img/control.png">
+  <img class="size" src="img/musica.png">
+  <img class="size" src="img/tv.png">
+ </div>
+</section>
+<p class="nombres"> video juegos, musica, television</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr style="border:30px","width:75%;"><hr style="border-color: black;" id="formacion">
+<section>
+  <br>
+  <h3>formacion</h3>
+  <br>
+  <br>
+  <br>
+  <br>
+ <div class="contenedor-imagenes">
+  <img class="size" src="img/microsoft.webp">
+  <img class="size" src="img/alura.jpg">
+  <img class="size" src="img/gorro.png">
+ </div>
+</section>
+<p class="nombres"> microsoft,alura,estudios</p>
+<br>
+<br>
+<br>
+<br>
+<hr style="border:30px","width:75%;"><hr style="border-color: black;" id="proyectos">
+<section>
+  <br>
+  <h3>proyectos</h3>
+  <div class="encriptador">
+    <h1>Encriptador de Texto</h1>
+  
+    <label for="mensaje">Ingrese el mensaje:</label>
+    <textarea id="mensaje" rows="4" cols="50" ></textarea>
+  
+    <label for="clave">Ingrese la clave (número de posiciones a desplazar):</label>
+    <input type="number" id="clave" min="1" value="3">
+  
+    <button onclick="encriptar()">Encriptar</button>
+    <button onclick="desencriptar()">Desencriptar</button>
+  
+    <h4>Resultado:</h4>
+    <p id="resultado"></p>
+  </div>
+
+
+  <div class="calculator">
+    <h1>CALCULADORA</h1>
+    <input type="text" id="display" readonly>
+    <div class="keys">
+      <button onclick="clearDisplay()">C</button>
+      <button onclick="appendToDisplay('/')">/</button>
+      <button onclick="appendToDisplay('*')">x</button>
+      <button onclick="appendToDisplay('7')">7</button>
+      <button onclick="appendToDisplay('8')">8</button>
+      <button onclick="appendToDisplay('9')">9</button>
+      <button onclick="appendToDisplay('-')">-</button>
+      <button onclick="appendToDisplay('4')">4</button>
+      <button onclick="appendToDisplay('5')">5</button>
+      <button onclick="appendToDisplay('6')">6</button>
+      <button onclick="appendToDisplay('+')">+</button>
+      <button onclick="appendToDisplay('1')">1</button>
+      <button onclick="appendToDisplay('2')">2</button>
+      <button onclick="appendToDisplay('3')">3</button>
+      <button onclick="calculate()">=</button>
+      <button onclick="appendToDisplay('0')">0</button>
+      <button onclick="appendToDisplay('.')">.</button>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <hr style="border:30px","width:75%;"><hr style="border-color: black;" id="contacto">
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+<h3>contacto</h3>
+  <div class="formulario">
+    <h2>Formulario</h2>
+    <form id="formulario">
+      <div>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+        <p id="nombreError" class="error"></p>
+      </div>
+      <div>
+        <label for="correo">Correo:</label>
+        <input type="text" id="correo" name="correo">
+        <p id="correoError" class="error"></p>
+      </div>
+      <div>
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" maxlength="300"></textarea>
+        <p id="mensajeError" class="error"></p>
+      </div>
+      <button type="submit">Confirmar</button>
+    </form>
+  </div>
+
+</section>
+<br>
+  <br>
+  <br>
+  <br>
+  <br>
+<br>
+<footer class="pie"><p>© desarrollador por juan alexander paulino marte</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
